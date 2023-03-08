@@ -1,0 +1,169 @@
+.video-flex{
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.video-view{
+   flex: 1;
+}
+
+.video-thumbnail-row {
+    position: relative;
+}
+
+.thumbnail-pic{
+    position: relative;
+    
+}
+
+.video-thumbnail{
+    width: 100%;
+}
+
+.container-channel-user{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.video-time{
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+    position: absolute;
+    bottom: 10px;
+    right: 9px;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 5px 10px;
+    border-radius: 2px;
+}
+
+.video-info-flex{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.video-title{
+    margin-top: 17px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+.channel-pic{
+    width: 50px;
+}
+
+.profile-pic{
+    width: 100%;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.video-info .channel-name{
+    color: black;
+}
+
+.subscribe-btn{
+    display: flex;
+    align-items: center;
+    margin-left: 80px;
+    border-radius: 20px;
+    background-color: gray;
+    padding: 10px;
+}
+
+.subscribe-btn button{
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+.subscribe-btn:hover{
+    background: rgba(0, 0, 0, 0.712);
+}
+.actions{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+}
+
+.icon-like-dislike,
+.icon-share,
+.icon-download,
+.icon-clip,
+.icon-save,
+.icon-list{
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    background-color: gray;
+    padding: 10px;
+    
+}
+
+.actions button{
+background: none;
+color: white;
+border: none;
+cursor: pointer;
+}
+
+.line-top{
+    position: absolute;
+    height: 20px;
+    left: 62px;
+}
+
+.icon-list{
+ height: 15px;
+}
+
+.video-description{
+    height: 74px;
+    background-color: rgba(212, 212, 212,0.3);
+    border-radius: 10px;
+    margin-top: 20px;
+    color: #000;
+    padding: 10px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    flex: 1;
+}
+
+.video-description:hover{
+    opacity: 0.7;
+}
+
+.video-description p{
+margin-top: 1px;
+}
+
+
+.video-play{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.712);
+    font-size: 120px;
+    cursor: pointer;
+    color: rgb(199, 199, 199);
+}
+
+.show-more{
+    display: inline-block;
+    position: absolute;
+    bottom: 4px;
+    left:34%;
+    cursor: pointer;
+
+}
