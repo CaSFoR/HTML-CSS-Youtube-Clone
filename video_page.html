@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Roboto:ital,wght@0,400;0,500;1,700&display=swap" 
+    rel="stylesheet">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/sidebar.css">
+    <link rel="stylesheet" href="styles/videopage.css">
+    <link rel="stylesheet" href="styles/videoPageComments.css">
+    <link rel="stylesheet" href="styles/videoPageLeftSection.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+     crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+        <!-- start header -->
+        <header class="header">
+            <div class="left-section">
+                <img class="hamburger-menu" src="icons/hamburger-menu.svg">
+                <img class="youtube-logo" src="icons/youtube-logo.svg">
+            </div>
+            <div class="middel-section">
+                <input class="search-bar" type="text" placeholder="Search">
+            <button class="search-btn">
+                <img class="search-icon" src="icons/search.svg">
+            <div class="tooltip">Search</div>
+            </button>
+            <button class="voice-search-btn"><img class="voice-search-icon" src="icons/voice-search-icon.svg">
+                <div class="tooltip">Search with your voice</div>
+            </button>
+            </div>
+            <div class="right-section">
+                <div class="upload-icon-container">
+                    <img class="upload-icon" src="icons/upload.svg">
+                    <div class="tooltip">Create</div>
+                </div>
+                <div class="youtube-apps-icon-container">
+                    <img class="youtube-apps-icon" src="icons/youtube-apps.svg">
+                    <div class="tooltip">YouTube apps</div>
+                </div>
+                <div class="notifications-icon-container">
+                    <img class="notifications-icon" src="icons/notifications.svg">
+                    <div class="tooltip">Notifications</div>
+                    <div class="notifications-count">3</div>
+                </div>
+                <div class="current-user-picture-container">
+                    <img class="current-user-picture" src="channel-pictures/my-channel.jpeg">
+                </div>
+            </div>
+    
+        </header>
+        <!-- end header -->
+    
+        <!-- start sidebar nav-->
+        <nav class="sidebar">
+            <div class="sidebar-link">
+                <img src="icons/home.svg" alt="">
+                <div>Home</div>
+            </div>
+            <div class="sidebar-link">
+                <img src="icons/explore.svg" alt="">
+                <div>Explore</div>
+    
+            </div>
+            <div class="sidebar-link">
+                <img src="icons/subscriptions.svg" alt="">
+                <div>Subscriptions</div>
+    
+            </div>
+            <div class="sidebar-link">
+                <img src="icons/originals.svg" alt="">
+                <div>Originals</div>
+    
+            </div>
+            <div class="sidebar-link">
+                <img src="icons/youtube-music.svg" alt="">
+                <div>YouTube Music</div>
+    
+            </div>
+            <div class="sidebar-link">
+                <img src="icons/library.svg" alt="">
+                <div>Library</div>
+    
+            </div>
+        </nav>
+        <!-- end sidebar nav -->
+    
+    <!-- Main section -->
+      <main>
+          <section class="video-flex">
+            <div class="video-view">
+                <div class="video-thumbnail-row">
+                    <div class="thumbnail-pic">
+                        <img class="video-thumbnail" src="thumbnails/thumbnail-2.webp">
+                        <div class="video-play">
+                            <i class="fa fa-play-circle"></i>
+                        </div>
+                    </div>
+                    <div class="video-time">
+                        8:22   
+                    </div>
+     
+                </div>
+
+                <div class="video-title">
+                    Try Not To Laugh Challenge #9
+                </div>
+                <div class="container-channel-user">
+                    <div class="video-info-flex">
+                        <div class="channel-pic">
+                            <img class="profile-pic" src="channel-pictures/channel-2.jpeg" alt="">
+                        </div>
+                        <div class="video-info">
+                            <p class="channel-name">Markiplier</p>
+                            <p class="video-author">198K subscribers</p>
+                        </div>
+                        <div class="subscribe-btn">
+                            <button><i class="fa-solid fa-bell"></i> Subscribed</button>
+                        </div>    
+                    </div>
+                    <div class="actions">
+                        <div class="icon-like-dislike">
+                            <button><i class="fa fa-thumbs-up" aria-hidden="true"></i> Like</button>
+                            <hr class="line-top">
+                            <button><i class="fa fa-thumbs-down" aria-hidden="true"></i> DisLike</button>
+                        </div>
+                       
+                        <div class="icon-share">
+                            <button><i class="fas fa-share"></i> Share</button>
+                        </div>
+                       
+                        <div class="icon-download">
+                            <button><i class="fas fa-download"></i> Download</button>
+                        </div>
+                        <div class="icon-clip">
+                            <button><i class="fa fa-scissors"></i> Clip</button>
+                        </div>
+                        <div class="icon-save">
+                            <button><i class="fas fa-bars"></i> Save</button>
+                        </div>
+                        <div class="icon-list">
+                            <button><i class="fa-solid fa-ellipsis"></i> </button>
+                        </div>
+                       
+                    </div>
+                </div>
+
+                <div class="video-description">
+                   <p>3,606,669 views 5 Feb 2022</p> 
+                   <p>
+                    In this full course, we learn how to build websites with HTML and CSS, and get started as a software engineer.
+                   </p>
+                   <p>
+                    Exercise solutions: https://supersimple.dev/courses/html-...
+                   </p>
+                   <p>
+                    Copy of the code: https://supersimple.dev/courses/html-...
+                   </p>
+                   <p>
+                    HTML and CSS reference: https://supersimple.dev/html
+                   </p>
+                   <div class="show-more"> 
+                        Show more
+                   </div>
+                </div>
+
+
+                <div class="comment-container">
+                    <div class="top-section">
+                        <p>5,377 Comments</p>
+                        <p><i class="fa fa-bars"></i> Sort by</p>
+                    </div>
+
+                    <div class="main-section">
+                        <div class="post-comment">
+                            <div class="user-pic">
+                                <img class="profile-pic-comment" src="channel-pictures/my-channel.jpeg">
+                            </div>
+                            <div class="input-comment">
+                                <input class="text-input-comment" type="text" placeholder="Add a comment">
+                                <div class="btn-below">
+                                    <div>
+                                        <i class="fa fa-smile"></i>
+                                    </div>
+                                    <div>
+                                        <button>Cancel</button>
+                                        <button>Comment</button>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="users-comment-container">
+                        <div class="user-comment">
+                            <div class="user-picture-comment">
+                                    <img class="user-pic-comment" src="channel-pictures/channel-1.jpeg" alt="">
+                            </div>
+                            <div class="container-user-comment">
+                                    <div class="user-account">
+                                        <p>Aubry Hart</p>
+                                        <p>8 months ago</p>
+                                    
+                                    </div>
+                                    <div class="icon-list-comment">
+                                        <i class="fa-solid fa-ellipsis-vertical"></i>
+                                    </div>
+                                    <div class="comment">
+                                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores facilis, ipsa natus 
+                            totam beatae excepturi quidem cumque sapiente repellendus quam recusandae error dicta animi maxime cum nesciunt accusamus perspiciatis soluta!</p>
+                                    </div>
+                                       <div>
+                                        <div class="actions-comment">
+                                            <div class="icon-like-dislike-comment">
+                                                <button><i class="fa fa-thumbs-up" aria-hidden="true"></i> 2.5K</button>
+                                                <button><i class="fa fa-thumbs-down" aria-hidden="true"></i></button>
+                                            </div>
+                                           
+                                            <div class="icon-replay-comment">
+                                                <button>Replay</button>
+                                            </div>
+                                           
+                                        </div>
+                                       </div>     
+                         
+                            </div>
+                        </div>
+
+
+
+                        <div class="user-comment">
+                            <div class="user-picture-comment">
+                                    <img class="user-pic-comment" src="channel-pictures/channel-4.jpeg" alt="">
+                            </div>
+                            <div class="container-user-comment">
+                                    <div class="user-account">
+                                        <p>Aubry Hart</p>
+                                        <p>8 months ago</p>
+                                    </div>
+                                    <div class="icon-list-comment">
+                                        <i class="fa-solid fa-ellipsis-vertical"></i>
+                                    </div>
+                                    <div class="comment">
+                                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores facilis, ipsa natus 
+                            totam beatae excepturi quidem cumque sapiente repellendus quam recusandae error dicta animi maxime cum nesciunt accusamus perspiciatis soluta!</p>
+                                    </div>
+                                       
+                                        <div class="actions-comment">
+                                            <div class="icon-like-dislike-comment">
+                                                <button><i class="fa fa-thumbs-up" aria-hidden="true"></i> 2.5K</button>
+                                                <button><i class="fa fa-thumbs-down" aria-hidden="true"></i></button>
+                                            </div>
+                                           
+                                            <div class="icon-replay-comment">
+                                                <button>Replay</button>
+                                            </div>
+                                           
+                                        </div>
+                                           
+                                       
+                            </div>
+                        </div>
+
+
+
+
+
+                        <div class="user-comment">
+                            <div class="user-picture-comment">
+                                    <img class="user-pic-comment" src="channel-pictures/channel-3.jpeg" alt="">
+                            </div>
+                            <div class="container-user-comment">
+                                    <div class="user-account">
+                                        <p>Aubry Hart</p>
+                                        <p>8 months ago</p>
+                                    </div>
+                                    <div class="icon-list-comment">
+                                        <i class="fa-solid fa-ellipsis-vertical"></i>
+                                    </div>
+                                    <div class="comment">
+                                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores facilis, ipsa natus 
+                            totam beatae excepturi quidem cumque sapiente repellendus quam recusandae error dicta animi maxime cum nesciunt accusamus perspiciatis soluta!</p>
+                                    </div>
+                                       <div>
+                                        <div class="actions-comment">
+                                            <div class="icon-like-dislike-comment">
+                                                <button><i class="fa fa-thumbs-up" aria-hidden="true"></i> 2.5K</button>
+                                                <button><i class="fa fa-thumbs-down" aria-hidden="true"></i></button>
+                                            </div>
+                                           
+                                            <div class="icon-replay-comment">
+                                                <button>Replay</button>
+                                            </div>
+                                           
+                                        </div>
+                                       </div>     
+                         
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+
+
+
+            </div>
+
+            <!-- Left Section -->
+            <div class="left-section-video">
+                <div class="row">
+                    <div class="thumbnails-video">
+                        <img src="thumbnails/thumbnail-1.webp" >
+                    </div>
+                    <div class="video-info-left">
+                        <p class="video-title-left">Try Not To Laugh Challenge #9</p>
+                        <p class="video-author-left">Markiplier</p>
+                        <p class="video-stats-left">19M views &#183 4 years ago</p>
+                    </div>
+                    <div class="icon-left">
+                        <i class="fa-solid fa-ellipsis-vertical"></i>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="thumbnails-video">
+                        <img src="thumbnails/thumbnail-2.webp" >
+                    </div>
+                    <div class="video-info-left">
+                        <p class="video-title-left">Try Not To Laugh Challenge #9</p>
+                        <p class="video-author-left">Markiplier</p>
+                        <p class="video-stats-left">19M views &#183 4 years ago</p>
+                    </div>
+                    <div class="icon-left">
+                        <i class="fa-solid fa-ellipsis-vertical"></i>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="thumbnails-video">
+                        <img src="thumbnails/thumbnail-3.webp" >
+                    </div>
+                    <div class="video-info-left">
+                        <p class="video-title-left">Try Not To Laugh Challenge #9</p>
+                        <p class="video-author-left">Markiplier</p>
+                        <p class="video-stats-left">19M views &#183 4 years ago</p>
+                    </div>
+                    <div class="icon-left">
+                        <i class="fa-solid fa-ellipsis-vertical"></i>
+                    </div>
+                </div>
+
+
+                <div class="row">
+                    <div class="thumbnails-video">
+                        <img src="thumbnails/thumbnail-1.webp" >
+                    </div>
+                    <div class="video-info-left">
+                        <p class="video-title-left">Try Not To Laugh Challenge #9</p>
+                        <p class="video-author-left">Markiplier</p>
+                        <p class="video-stats-left">19M views &#183 4 years ago</p>
+                    </div>
+                    <div class="icon-left">
+                        <i class="fa-solid fa-ellipsis-vertical"></i>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="thumbnails-video">
+                        <img src="thumbnails/thumbnail-2.webp" >
+                    </div>
+                    <div class="video-info-left">
+                        <p class="video-title-left">Try Not To Laugh Challenge #9</p>
+                        <p class="video-author-left">Markiplier</p>
+                        <p class="video-stats-left">19M views &#183 4 years ago</p>
+                    </div>
+                    <div class="icon-left">
+                        <i class="fa-solid fa-ellipsis-vertical"></i>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="thumbnails-video">
+                        <img src="thumbnails/thumbnail-3.webp" >
+                    </div>
+                    <div class="video-info-left">
+                        <p class="video-title-left">Try Not To Laugh Challenge #9</p>
+                        <p class="video-author-left">Markiplier</p>
+                        <p class="video-stats-left">19M views &#183 4 years ago</p>
+                    </div>
+                    <div class="icon-left">
+                        <i class="fa-solid fa-ellipsis-vertical"></i>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="thumbnails-video">
+                        <img src="thumbnails/thumbnail-1.webp" >
+                    </div>
+                    <div class="video-info-left">
+                        <p class="video-title-left">Try Not To Laugh Challenge #9</p>
+                        <p class="video-author-left">Markiplier</p>
+                        <p class="video-stats-left">19M views &#183 4 years ago</p>
+                    </div>
+                    <div class="icon-left">
+                        <i class="fa-solid fa-ellipsis-vertical"></i>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="thumbnails-video">
+                        <img src="thumbnails/thumbnail-2.webp" >
+                    </div>
+                    <div class="video-info-left">
+                        <p class="video-title-left">Try Not To Laugh Challenge #9</p>
+                        <p class="video-author-left">Markiplier</p>
+                        <p class="video-stats-left">19M views &#183 4 years ago</p>
+                    </div>
+                    <div class="icon-left">
+                        <i class="fa-solid fa-ellipsis-vertical"></i>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="thumbnails-video">
+                        <img src="thumbnails/thumbnail-3.webp" >
+                    </div>
+                    <div class="video-info-left">
+                        <p class="video-title-left">Try Not To Laugh Challenge #9</p>
+                        <p class="video-author-left">Markiplier</p>
+                        <p class="video-stats-left">19M views &#183 4 years ago</p>
+                    </div>
+                    <div class="icon-left">
+                        <i class="fa-solid fa-ellipsis-vertical"></i>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="thumbnails-video">
+                        <img src="thumbnails/thumbnail-1.webp" >
+                    </div>
+                    <div class="video-info-left">
+                        <p class="video-title-left">Try Not To Laugh Challenge #9</p>
+                        <p class="video-author-left">Markiplier</p>
+                        <p class="video-stats-left">19M views &#183 4 years ago</p>
+                    </div>
+                    <div class="icon-left">
+                        <i class="fa-solid fa-ellipsis-vertical"></i>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="thumbnails-video">
+                        <img src="thumbnails/thumbnail-2.webp" >
+                    </div>
+                    <div class="video-info-left">
+                        <p class="video-title-left">Try Not To Laugh Challenge #9</p>
+                        <p class="video-author-left">Markiplier</p>
+                        <p class="video-stats-left">19M views &#183 4 years ago</p>
+                    </div>
+                    <div class="icon-left">
+                        <i class="fa-solid fa-ellipsis-vertical"></i>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="thumbnails-video">
+                        <img src="thumbnails/thumbnail-3.webp" >
+                    </div>
+                    <div class="video-info-left">
+                        <p class="video-title-left">Try Not To Laugh Challenge #9</p>
+                        <p class="video-author-left">Markiplier</p>
+                        <p class="video-stats-left">19M views &#183 4 years ago</p>
+                    </div>
+                    <div class="icon-left">
+                        <i class="fa-solid fa-ellipsis-vertical"></i>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="thumbnails-video">
+                        <img src="thumbnails/thumbnail-1.webp" >
+                    </div>
+                    <div class="video-info-left">
+                        <p class="video-title-left">Try Not To Laugh Challenge #9</p>
+                        <p class="video-author-left">Markiplier</p>
+                        <p class="video-stats-left">19M views &#183 4 years ago</p>
+                    </div>
+                    <div class="icon-left">
+                        <i class="fa-solid fa-ellipsis-vertical"></i>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="thumbnails-video">
+                        <img src="thumbnails/thumbnail-2.webp" >
+                    </div>
+                    <div class="video-info-left">
+                        <p class="video-title-left">Try Not To Laugh Challenge #9</p>
+                        <p class="video-author-left">Markiplier</p>
+                        <p class="video-stats-left">19M views &#183 4 years ago</p>
+                    </div>
+                    <div class="icon-left">
+                        <i class="fa-solid fa-ellipsis-vertical"></i>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="thumbnails-video">
+                        <img src="thumbnails/thumbnail-3.webp" >
+                    </div>
+                    <div class="video-info-left">
+                        <p class="video-title-left">Try Not To Laugh Challenge #9</p>
+                        <p class="video-author-left">Markiplier</p>
+                        <p class="video-stats-left">19M views &#183 4 years ago</p>
+                    </div>
+                    <div class="icon-left">
+                        <i class="fa-solid fa-ellipsis-vertical"></i>
+                    </div>
+                </div>
+
+
+            </div>
+    
+            </section>
+      </main>
+</body>
+</html>
