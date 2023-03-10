@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,94 +8,97 @@
     <title>Video Page</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Roboto:ital,wght@0,400;0,500;1,700&display=swap" 
-    rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Roboto:ital,wght@0,400;0,500;1,700&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="styles/header.css">
     <link rel="stylesheet" href="styles/general.css">
     <link rel="stylesheet" href="styles/sidebar.css">
     <link rel="stylesheet" href="styles/videopage.css">
     <link rel="stylesheet" href="styles/videoPageComments.css">
-    <link rel="stylesheet" href="styles/videoPageRightSection.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
-     crossorigin="anonymous" referrerpolicy="no-referrer" />
-
+    <link rel="stylesheet" href="styles/videoPagerightSection.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://kit.fontawesome.com/965d9d385a.css" crossorigin="anonymous">
 </head>
+
 <body>
-        <!-- start header -->
-        <header class="header">
-            <div class="right-section">
-                <img class="hamburger-menu" src="icons/hamburger-menu.svg">
-                <a href="index.html"><img class="youtube-logo" src="icons/youtube-logo.svg"></a>
-            </div>
-            <div class="middel-section">
-                <input class="search-bar" type="text" placeholder="Search">
+    <!-- start header -->
+    <header class="header">
+        <div class="right-section">
+            <img class="hamburger-menu" src="icons/hamburger-menu.svg">
+            <a href="index.html"><img class="youtube-logo" src="icons/youtube-logo.svg"></a>
+        </div>
+        <div class="middel-section">
+            <input class="search-bar" type="text" placeholder="Search">
             <button class="search-btn">
                 <img class="search-icon" src="icons/search.svg">
-            <div class="tooltip">Search</div>
+                <div class="tooltip">Search</div>
             </button>
             <button class="voice-search-btn"><img class="voice-search-icon" src="icons/voice-search-icon.svg">
                 <div class="tooltip">Search with your voice</div>
             </button>
+        </div>
+        <div class="right-section">
+            <div class="upload-icon-container">
+                <img class="upload-icon" src="icons/upload.svg">
+                <div class="tooltip">Create</div>
             </div>
-            <div class="right-section">
-                <div class="upload-icon-container">
-                    <img class="upload-icon" src="icons/upload.svg">
-                    <div class="tooltip">Create</div>
-                </div>
-                <div class="youtube-apps-icon-container">
-                    <img class="youtube-apps-icon" src="icons/youtube-apps.svg">
-                    <div class="tooltip">YouTube apps</div>
-                </div>
-                <div class="notifications-icon-container">
-                    <img class="notifications-icon" src="icons/notifications.svg">
-                    <div class="tooltip">Notifications</div>
-                    <div class="notifications-count">3</div>
-                </div>
-                <div class="current-user-picture-container">
-                    <img class="current-user-picture" src="channel-pictures/my-channel.jpeg">
-                </div>
+            <div class="youtube-apps-icon-container">
+                <img class="youtube-apps-icon" src="icons/youtube-apps.svg">
+                <div class="tooltip">YouTube apps</div>
             </div>
-    
-        </header>
-        <!-- end header -->
-    
-        <!-- start sidebar nav-->
-        <nav class="sidebar">
-            <div class="sidebar-link">
-                <img src="icons/home.svg" alt="">
-                <div>Home</div>
+            <div class="notifications-icon-container">
+                <img class="notifications-icon" src="icons/notifications.svg">
+                <div class="tooltip">Notifications</div>
+                <div class="notifications-count">3</div>
             </div>
-            <div class="sidebar-link">
-                <img src="icons/explore.svg" alt="">
-                <div>Explore</div>
-    
+            <div class="current-user-picture-container">
+                <img class="current-user-picture" src="channel-pictures/unnamed.jpg">
             </div>
-            <div class="sidebar-link">
-                <img src="icons/subscriptions.svg" alt="">
-                <div>Subscriptions</div>
-    
-            </div>
-            <div class="sidebar-link">
-                <img src="icons/originals.svg" alt="">
-                <div>Originals</div>
-    
-            </div>
-            <div class="sidebar-link">
-                <img src="icons/youtube-music.svg" alt="">
-                <div>YouTube Music</div>
-    
-            </div>
-            <div class="sidebar-link">
-                <img src="icons/library.svg" alt="">
-                <div>Library</div>
-    
-            </div>
-        </nav>
-        <!-- end sidebar nav -->
-    
+        </div>
+
+    </header>
+    <!-- end header -->
+
+    <!-- start sidebar nav-->
+    <nav class="sidebar">
+        <div class="sidebar-link">
+            <img src="icons/home.svg" alt="">
+            <div>Home</div>
+        </div>
+        <div class="sidebar-link">
+            <img src="icons/explore.svg" alt="">
+            <div>Explore</div>
+
+        </div>
+        <div class="sidebar-link">
+            <img src="icons/subscriptions.svg" alt="">
+            <div>Subscriptions</div>
+
+        </div>
+        <div class="sidebar-link">
+            <img src="icons/originals.svg" alt="">
+            <div>Originals</div>
+
+        </div>
+        <div class="sidebar-link">
+            <img src="icons/youtube-music.svg" alt="">
+            <div>YouTube Music</div>
+
+        </div>
+        <div class="sidebar-link">
+            <img src="icons/library.svg" alt="">
+            <div>Library</div>
+
+        </div>
+    </nav>
+    <!-- end sidebar nav -->
+
     <!-- Main section -->
-      <main>
-          <section class="video-flex">
+    <main>
+        <section class="video-flex">
             <div class="video-view">
                 <div class="video-thumbnail-row">
                     <div class="thumbnail-pic">
@@ -104,9 +108,9 @@
                         </div>
                     </div>
                     <div class="video-time">
-                        8:22   
+                        8:22
                     </div>
-     
+
                 </div>
 
                 <div class="video-title">
@@ -122,53 +126,66 @@
                             <p class="video-author">198K subscribers</p>
                         </div>
                         <div class="subscribe-btn">
-                            <button><i class="fa-solid fa-bell"></i> Subscribed</button>
-                        </div>    
+                            <button><i class="fa fa-bell"></i> Subscribed <i class="fa fa-chevron-down" aria-hidden="true"></i></button>
+                        </div>
                     </div>
                     <div class="actions">
-                        <div class="icon-like-dislike">
-                            <button><i class="fa fa-thumbs-up" aria-hidden="true"></i> Like</button>
+                        <div class="icon-like-dislike-container">
+                            <div class="like-this">
+                                <button class="btn-like"><i class="fa fa-thumbs-up"></i> 88K</button>
+                                <div class="tooltip-video">I like this</div>
+                            </div>
                             <hr class="line-top">
-                            <button><i class="fa fa-thumbs-down" aria-hidden="true"></i> DisLike</button>
+                            <div class="dislike-this">
+                                <button class="btn-dislike"><i class="fa fa-thumbs-down" aria-hidden="true"></i></button>
+                                <div class="tooltip-video">I dislike this</div>
+                            </div>
+
                         </div>
-                       
+
                         <div class="icon-share">
                             <button><i class="fas fa-share"></i> Share</button>
+                            <div class="tooltip-video">Share</div>
+
                         </div>
-                       
+
                         <div class="icon-download">
                             <button><i class="fas fa-download"></i> Download</button>
+                            <div class="tooltip-video">Download</div>
+
                         </div>
                         <div class="icon-clip">
                             <button><i class="fa fa-scissors"></i> Clip</button>
+                            <div class="tooltip-video">Clip</div>
                         </div>
                         <div class="icon-save">
                             <button><i class="fas fa-bars"></i> Save</button>
+                            <div class="tooltip-video">Save</div>
                         </div>
                         <div class="icon-list">
                             <button><i class="fa-solid fa-ellipsis"></i> </button>
                         </div>
-                       
+
                     </div>
                 </div>
 
                 <div class="video-description">
-                   <p>3,606,669 views 5 Feb 2022</p> 
-                   <p>
-                    In this full course, we learn how to build websites with HTML and CSS, and get started as a software engineer.
-                   </p>
-                   <p>
-                    Exercise solutions: https://supersimple.dev/courses/html-...
-                   </p>
-                   <p>
-                    Copy of the code: https://supersimple.dev/courses/html-...
-                   </p>
-                   <p>
-                    HTML and CSS reference: https://supersimple.dev/html
-                   </p>
-                   <div class="show-more"> 
+                    <p>20,577,688 views 16 Sept 2017</p>
+                    <p>
+                        Oh boy... do you like short funny videos? Then this Try Not To Laugh is for you!
+                    </p>
+                    <p>
+                        TOUR TICKETS ON SALE NOW ► <a href="" style="text-decoration: underline; color: blue;">https://www.markiplier.com/</a> 
+                    </p>
+                    <p>
+                        Subscribe Today! ► <a href="" style="text-decoration: underline; color: blue;">http://bit.ly/Markiplier</a> 
+                    </p>
+                    <p>
+                        MORE Try Not To Laugh ►  • Try Not To Laugh  
+                    </p>
+                    <div class="show-more">
                         Show more
-                   </div>
+                    </div>
                 </div>
 
 
@@ -181,19 +198,19 @@
                     <div class="main-section">
                         <div class="post-comment">
                             <div class="user-pic">
-                                <img class="profile-pic-comment" src="channel-pictures/my-channel.jpeg">
+                                <img class="profile-pic-comment" src="channel-pictures/unnamed.jpg">
                             </div>
                             <div class="input-comment">
                                 <input class="text-input-comment" type="text" placeholder="Add a comment">
                                 <div class="btn-below">
-                                    <div>
+                                    <div class="icon-smile">
                                         <i class="fa fa-smile"></i>
                                     </div>
                                     <div>
                                         <button class="btn-cancel-comment">Cancel</button>
                                         <button class="btn-post-comment">Comment</button>
                                     </div>
-                                    
+
                                 </div>
                             </div>
                         </div>
@@ -202,35 +219,48 @@
                     <div class="users-comment-container">
                         <div class="user-comment">
                             <div class="user-picture-comment">
-                                    <img class="user-pic-comment" src="channel-pictures/channel-1.jpeg" alt="">
+                                <img class="user-pic-comment" src="channel-pictures/channel-1.jpeg" alt="">
                             </div>
                             <div class="container-user-comment">
-                                    <div class="user-account">
-                                        <p>leyon</p>
-                                        <p>8 months ago</p>
-                                    
-                                    </div>
-                                    <div class="icon-list-comment">
-                                        <i class="fa-solid fa-ellipsis-vertical"></i>
-                                    </div>
-                                    <div class="comment">
-                                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores facilis, ipsa natus 
-                            totam beatae excepturi quidem cumque sapiente repellendus quam recusandae error dicta animi maxime cum nesciunt accusamus perspiciatis soluta!</p>
-                                    </div>
-                                       <div>
-                                        <div class="actions-comment">
-                                            <div class="icon-like-dislike-comment">
-                                                <button><i class="fa fa-thumbs-up" aria-hidden="true"></i> 2.5K</button>
+                                <div class="user-account">
+                                    <p>leyon</p>
+                                    <p>1 year ago</p>
+
+                                </div>
+                                <div class="icon-list-comment">
+                                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                                </div>
+                                <div class="comment">
+                                    <p>I’m not laughing at the mini clips,
+                                         I’m laughing at Mark trying to keep himself together.
+                                          He lost and the next thing you know, he’s belly laughing at a kid get sucked into an abyss</p>
+                                </div>
+                                    <div class="actions-comment">
+                                        <div class="icon-like-dislike-comment">
+                                            <div class="like-comment">
+                                                <button><i class="fa fa-thumbs-up" aria-hidden="true"></i> 256</button>
+                                                <div class="tooltip-comment">Like</div>
+                                            </div>
+                                            <div class="dislike-comment">
                                                 <button><i class="fa fa-thumbs-down" aria-hidden="true"></i></button>
+                                                <div class="tooltip-comment">Dislike</div>
+    
                                             </div>
-                                           
-                                            <div class="icon-replay-comment">
-                                                <button>Replay</button>
-                                            </div>
-                                           
                                         </div>
-                                       </div>     
-                         
+
+                                        <div class="icon-replay-comment">
+                                            <button>Replay</button>
+                                        </div>
+
+                                    </div>
+
+                                    <!-- <div class="btn-replies-container">
+                                        <div class="row-btn-replies">
+                                            <i class="fa fa-caret-down"></i>
+                                            <button class="btn-replies">6 replies</button>
+                                        </div>
+                                    </div> -->
+
                             </div>
                         </div>
 
@@ -238,34 +268,46 @@
 
                         <div class="user-comment">
                             <div class="user-picture-comment">
-                                    <img class="user-pic-comment" src="channel-pictures/channel-4.jpeg" alt="">
+                                <img class="user-pic-comment" src="channel-pictures/channel-4.jpeg" alt="">
                             </div>
                             <div class="container-user-comment">
-                                    <div class="user-account">
-                                        <p>Velon</p>
-                                        <p>5 months ago</p>
-                                    </div>
-                                    <div class="icon-list-comment">
-                                        <i class="fa-solid fa-ellipsis-vertical"></i>
-                                    </div>
-                                    <div class="comment">
-                                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores facilis, ipsa natus 
-                            totam beatae excepturi quidem cumque sapiente repellendus quam recusandae error dicta animi maxime cum nesciunt accusamus perspiciatis soluta!</p>
-                                    </div>
-                                       
-                                        <div class="actions-comment">
-                                            <div class="icon-like-dislike-comment">
-                                                <button><i class="fa fa-thumbs-up" aria-hidden="true"></i> 1.5K</button>
-                                                <button><i class="fa fa-thumbs-down" aria-hidden="true"></i></button>
-                                            </div>
-                                           
-                                            <div class="icon-replay-comment">
-                                                <button>Replay</button>
-                                            </div>
-                                           
+                                <div class="user-account">
+                                    <p>Velon</p>
+                                    <p>2 years ago</p>
+                                </div>
+                                <div class="icon-list-comment">
+                                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                                </div>
+                                <div class="comment">
+                                    <p>This mans laughter is as contagious as the coronavirus.</p>
+                                </div>
+
+                                <div class="actions-comment">
+                                    <div class="icon-like-dislike-comment">
+                                        <div class="like-comment">
+                                            <button><i class="fa fa-thumbs-up" aria-hidden="true"></i> 7.4K</button>
+                                            <div class="tooltip-comment">Like</div>
                                         </div>
-                                           
-                                       
+                                        <div class="dislike-comment">
+                                            <button><i class="fa fa-thumbs-down" aria-hidden="true"></i></button>
+                                            <div class="tooltip-comment">Dislike</div>
+
+                                        </div>
+                                    </div>
+
+                                    <div class="icon-replay-comment">
+                                        <button>Replay</button>
+                                    </div>
+
+                                </div>
+
+                                <div class="btn-replies-container">
+                                    <div class="row-btn-replies">
+                                        <i class="fa fa-caret-down"></i>
+                                        <button class="btn-replies">256 replies</button>
+                                    </div>
+                                </div>
+
                             </div>
                         </div>
 
@@ -275,34 +317,45 @@
 
                         <div class="user-comment">
                             <div class="user-picture-comment">
-                                    <img class="user-pic-comment" src="channel-pictures/channel-5.jpeg" alt="">
+                                <img class="user-pic-comment" src="channel-pictures/channel-5.jpeg" alt="">
                             </div>
                             <div class="container-user-comment">
-                                    <div class="user-account">
-                                        <p>Jack</p>
-                                        <p>2 months ago</p>
-                                    </div>
-                                    <div class="icon-list-comment">
-                                        <i class="fa-solid fa-ellipsis-vertical"></i>
-                                    </div>
-                                    <div class="comment">
-                                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores facilis, ipsa natus 
-                            totam beatae excepturi quidem cumque sapiente repellendus quam recusandae error dicta animi maxime cum nesciunt accusamus perspiciatis soluta!</p>
-                                    </div>
-                                       <div>
-                                        <div class="actions-comment">
-                                            <div class="icon-like-dislike-comment">
-                                                <button><i class="fa fa-thumbs-up" aria-hidden="true"></i> 1K</button>
+                                <div class="user-account">
+                                    <p>Jack</p>
+                                    <p>5 years ago</p>
+                                </div>
+                                <div class="icon-list-comment">
+                                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                                </div>
+                                <div class="comment">
+                                    <p>Your laught makes everyone else laught it's amazing</p>
+                                </div>
+                          
+                                    <div class="actions-comment">
+                                        <div class="icon-like-dislike-comment">
+                                            <div class="like-comment">
+                                                <button><i class="fa fa-thumbs-up" aria-hidden="true"></i> 4.8K</button>
+                                                <div class="tooltip-comment">Like</div>
+                                            </div>
+                                            <div class="dislike-comment">
                                                 <button><i class="fa fa-thumbs-down" aria-hidden="true"></i></button>
+                                                <div class="tooltip-comment">Dislike</div>
+
                                             </div>
-                                           
-                                            <div class="icon-replay-comment">
-                                                <button>Replay</button>
-                                            </div>
-                                           
                                         </div>
-                                       </div>     
-                         
+
+                                        <div class="icon-replay-comment">
+                                            <button>Replay</button>
+                                        </div>
+
+                                    </div>
+                                    <div class="btn-replies-container">
+                                        <div class="row-btn-replies">
+                                            <i class="fa fa-caret-down"></i>
+                                            <button class="btn-replies">89 replies</button>
+                                        </div>
+                                    </div>
+
                             </div>
                         </div>
                     </div>
@@ -318,14 +371,38 @@
 
             <!-- right Section -->
             <div class="right-section-video">
+                <div class="suggestions-container">
+                    <div class="suggestion-all">
+                       All 
+                    </div>
+                    <div class="suggestion-two">
+                       Web Development 
+                     </div>
+                     <div class="suggestion-tree">
+                        CSS
+                     </div>
+                     <div class="suggestion-fourth">
+                        Courses 
+                     </div>
+                     <div class="suggestion-five">
+                        Related 
+                     </div>
+                     <div class="suggestion-six">
+                        Comedy 
+                     </div>
+
+                     <div class="icon-arrow-right">
+                        <i class="fa fa-angle-right"></i>
+                     </div>
+                </div>
                 <div class="row">
                     <div class="thumbnails-video">
-                        <img src="thumbnails/thumbnail-1.webp" >
+                        <img src="thumbnails/thumbnail-1.webp">
                     </div>
                     <div class="video-info-right">
-                        <p class="video-title-right">Try Not To Laugh Challenge #9</p>
-                        <p class="video-author-right">Markiplier</p>
-                        <p class="video-stats-right">19M views &#183 4 years ago</p>
+                        <p class="video-title-right">Talking Tech and AI with Google CEO Sundar Pichai!</p>
+                        <p class="video-author-right">Marques Brownlee</p>
+                        <p class="video-stats-right">3.4M views  &#183; 6 months ago</p>
                     </div>
                     <div class="icon-right">
                         <i class="fa-solid fa-ellipsis-vertical"></i>
@@ -334,12 +411,12 @@
 
                 <div class="row">
                     <div class="thumbnails-video">
-                        <img src="thumbnails/thumbnail-2.webp" >
+                        <img src="thumbnails/thumbnail-3.jpg">
                     </div>
                     <div class="video-info-right">
-                        <p class="video-title-right">Try Not To Laugh Challenge #9</p>
-                        <p class="video-author-right">Markiplier</p>
-                        <p class="video-stats-right">19M views &#183 4 years ago</p>
+                        <p class="video-title-right">HTML & CSS Full Course - Beginner to Pro</p>
+                        <p class="video-author-right">SuperSimpleDev</p>
+                        <p class="video-stats-right">3,6M views  &#183; 1 year ago</p>
                     </div>
                     <div class="icon-right">
                         <i class="fa-solid fa-ellipsis-vertical"></i>
@@ -348,12 +425,12 @@
 
                 <div class="row">
                     <div class="thumbnails-video">
-                        <img src="thumbnails/thumbnail-5.webp" >
+                        <img src="thumbnails/thumbnail-4.webp">
                     </div>
                     <div class="video-info-right">
-                        <p class="video-title-right">Try Not To Laugh Challenge #9</p>
-                        <p class="video-author-right">Markiplier</p>
-                        <p class="video-stats-right">19M views &#183 4 years ago</p>
+                        <p class="video-title-right">The Simplest Math Problem No One Can Solve - Collatz...</p>
+                        <p class="video-author-right">Veritasium</p>
+                        <p class="video-stats-right">318M views &#183; 4 months ago</p>
                     </div>
                     <div class="icon-right">
                         <i class="fa-solid fa-ellipsis-vertical"></i>
@@ -363,12 +440,12 @@
 
                 <div class="row">
                     <div class="thumbnails-video">
-                        <img src="thumbnails/thumbnail-4.webp" >
+                        <img src="thumbnails/thumbnail-5.webp">
                     </div>
                     <div class="video-info-right">
-                        <p class="video-title-right">Try Not To Laugh Challenge #9</p>
-                        <p class="video-author-right">Markiplier</p>
-                        <p class="video-stats-right">19M views &#183 4 years ago</p>
+                        <p class="video-title-right">Kadane's Algorithm to Maximum Sum Subarray Problem</p>
+                        <p class="video-author-right">CS Dojo</p>
+                        <p class="video-stats-right">519K views &#183; 5 years ago</p>
                     </div>
                     <div class="icon-right">
                         <i class="fa-solid fa-ellipsis-vertical"></i>
@@ -377,12 +454,25 @@
 
                 <div class="row">
                     <div class="thumbnails-video">
-                        <img src="thumbnails/thumbnail-6.webp" >
+                        <img src="thumbnails/thumbnail-6.webp">
                     </div>
                     <div class="video-info-right">
-                        <p class="video-title-right">Try Not To Laugh Challenge #9</p>
-                        <p class="video-author-right">Markiplier</p>
-                        <p class="video-stats-right">19M views &#183 4 years ago</p>
+                        <p class="video-title-right">Anything You Can Fit In The Circle I&#39;ll Pay For</p>
+                        <p class="video-author-right">MrBeast</p>
+                        <p class="video-stats-right">141M views &#183 1 year ago</p>
+                    </div>
+                    <div class="icon-right">
+                        <i class="fa-solid fa-ellipsis-vertical"></i>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="thumbnails-video">
+                        <img src="thumbnails/thumbnail-1.webp">
+                    </div>
+                    <div class="video-info-right">
+                        <p class="video-title-right">Talking Tech and AI with Google CEO Sundar Pichai!</p>
+                        <p class="video-author-right">Marques Brownlee</p>
+                        <p class="video-stats-right">3.4M views  &#183; 6 months ago</p>
                     </div>
                     <div class="icon-right">
                         <i class="fa-solid fa-ellipsis-vertical"></i>
@@ -391,25 +481,12 @@
 
                 <div class="row">
                     <div class="thumbnails-video">
-                        <img src="thumbnails/thumbnail-2.webp" >
+                        <img src="thumbnails/thumbnail-3.jpg">
                     </div>
                     <div class="video-info-right">
-                        <p class="video-title-right">Try Not To Laugh Challenge #9</p>
-                        <p class="video-author-right">Markiplier</p>
-                        <p class="video-stats-right">19M views &#183 4 years ago</p>
-                    </div>
-                    <div class="icon-right">
-                        <i class="fa-solid fa-ellipsis-vertical"></i>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="thumbnails-video">
-                        <img src="thumbnails/thumbnail-4.webp" >
-                    </div>
-                    <div class="video-info-right">
-                        <p class="video-title-right">Try Not To Laugh Challenge #9</p>
-                        <p class="video-author-right">Markiplier</p>
-                        <p class="video-stats-right">19M views &#183 4 years ago</p>
+                        <p class="video-title-right">HTML & CSS Full Course - Beginner to Pro</p>
+                        <p class="video-author-right">SuperSimpleDev</p>
+                        <p class="video-stats-right">3,6M views  &#183; 1 year ago</p>
                     </div>
                     <div class="icon-right">
                         <i class="fa-solid fa-ellipsis-vertical"></i>
@@ -418,12 +495,27 @@
 
                 <div class="row">
                     <div class="thumbnails-video">
-                        <img src="thumbnails/thumbnail-2.webp" >
+                        <img src="thumbnails/thumbnail-4.webp">
                     </div>
                     <div class="video-info-right">
-                        <p class="video-title-right">Try Not To Laugh Challenge #9</p>
-                        <p class="video-author-right">Markiplier</p>
-                        <p class="video-stats-right">19M views &#183 4 years ago</p>
+                        <p class="video-title-right">The Simplest Math Problem No One Can Solve - Collatz...</p>
+                        <p class="video-author-right">Veritasium</p>
+                        <p class="video-stats-right">318M views &#183; 4 months ago</p>
+                    </div>
+                    <div class="icon-right">
+                        <i class="fa-solid fa-ellipsis-vertical"></i>
+                    </div>
+                </div>
+
+
+                <div class="row">
+                    <div class="thumbnails-video">
+                        <img src="thumbnails/thumbnail-5.webp">
+                    </div>
+                    <div class="video-info-right">
+                        <p class="video-title-right">Kadane's Algorithm to Maximum Sum Subarray Problem</p>
+                        <p class="video-author-right">CS Dojo</p>
+                        <p class="video-stats-right">519K views &#183; 5 years ago</p>
                     </div>
                     <div class="icon-right">
                         <i class="fa-solid fa-ellipsis-vertical"></i>
@@ -432,25 +524,12 @@
 
                 <div class="row">
                     <div class="thumbnails-video">
-                        <img src="thumbnails/thumbnail-6.webp" >
+                        <img src="thumbnails/thumbnail-6.webp">
                     </div>
                     <div class="video-info-right">
-                        <p class="video-title-right">Try Not To Laugh Challenge #9</p>
-                        <p class="video-author-right">Markiplier</p>
-                        <p class="video-stats-right">19M views &#183 4 years ago</p>
-                    </div>
-                    <div class="icon-right">
-                        <i class="fa-solid fa-ellipsis-vertical"></i>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="thumbnails-video">
-                        <img src="thumbnails/thumbnail-1.webp" >
-                    </div>
-                    <div class="video-info-right">
-                        <p class="video-title-right">Try Not To Laugh Challenge #9</p>
-                        <p class="video-author-right">Markiplier</p>
-                        <p class="video-stats-right">19M views &#183 4 years ago</p>
+                        <p class="video-title-right">Anything You Can Fit In The Circle I&#39;ll Pay For</p>
+                        <p class="video-author-right">MrBeast</p>
+                        <p class="video-stats-right">141M views &#183 1 year ago</p>
                     </div>
                     <div class="icon-right">
                         <i class="fa-solid fa-ellipsis-vertical"></i>
@@ -459,12 +538,12 @@
 
                 <div class="row">
                     <div class="thumbnails-video">
-                        <img src="thumbnails/thumbnail-2.webp" >
+                        <img src="thumbnails/thumbnail-1.webp">
                     </div>
                     <div class="video-info-right">
-                        <p class="video-title-right">Try Not To Laugh Challenge #9</p>
-                        <p class="video-author-right">Markiplier</p>
-                        <p class="video-stats-right">19M views &#183 4 years ago</p>
+                        <p class="video-title-right">Talking Tech and AI with Google CEO Sundar Pichai!</p>
+                        <p class="video-author-right">Marques Brownlee</p>
+                        <p class="video-stats-right">3.4M views  &#183; 6 months ago</p>
                     </div>
                     <div class="icon-right">
                         <i class="fa-solid fa-ellipsis-vertical"></i>
@@ -473,25 +552,12 @@
 
                 <div class="row">
                     <div class="thumbnails-video">
-                        <img src="thumbnails/thumbnail-4.webp" >
+                        <img src="thumbnails/thumbnail-3.jpg">
                     </div>
                     <div class="video-info-right">
-                        <p class="video-title-right">Try Not To Laugh Challenge #9</p>
-                        <p class="video-author-right">Markiplier</p>
-                        <p class="video-stats-right">19M views &#183 4 years ago</p>
-                    </div>
-                    <div class="icon-right">
-                        <i class="fa-solid fa-ellipsis-vertical"></i>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="thumbnails-video">
-                        <img src="thumbnails/thumbnail-1.webp" >
-                    </div>
-                    <div class="video-info-right">
-                        <p class="video-title-right">Try Not To Laugh Challenge #9</p>
-                        <p class="video-author-right">Markiplier</p>
-                        <p class="video-stats-right">19M views &#183 4 years ago</p>
+                        <p class="video-title-right">HTML & CSS Full Course - Beginner to Pro</p>
+                        <p class="video-author-right">SuperSimpleDev</p>
+                        <p class="video-stats-right">3,6M views  &#183; 1 year ago</p>
                     </div>
                     <div class="icon-right">
                         <i class="fa-solid fa-ellipsis-vertical"></i>
@@ -500,12 +566,27 @@
 
                 <div class="row">
                     <div class="thumbnails-video">
-                        <img src="thumbnails/thumbnail-2.webp" >
+                        <img src="thumbnails/thumbnail-4.webp">
                     </div>
                     <div class="video-info-right">
-                        <p class="video-title-right">Try Not To Laugh Challenge #9</p>
-                        <p class="video-author-right">Markiplier</p>
-                        <p class="video-stats-right">19M views &#183 4 years ago</p>
+                        <p class="video-title-right">The Simplest Math Problem No One Can Solve - Collatz...</p>
+                        <p class="video-author-right">Veritasium</p>
+                        <p class="video-stats-right">318M views &#183; 4 months ago</p>
+                    </div>
+                    <div class="icon-right">
+                        <i class="fa-solid fa-ellipsis-vertical"></i>
+                    </div>
+                </div>
+
+
+                <div class="row">
+                    <div class="thumbnails-video">
+                        <img src="thumbnails/thumbnail-5.webp">
+                    </div>
+                    <div class="video-info-right">
+                        <p class="video-title-right">Kadane's Algorithm to Maximum Sum Subarray Problem</p>
+                        <p class="video-author-right">CS Dojo</p>
+                        <p class="video-stats-right">519K views &#183; 5 years ago</p>
                     </div>
                     <div class="icon-right">
                         <i class="fa-solid fa-ellipsis-vertical"></i>
@@ -514,22 +595,96 @@
 
                 <div class="row">
                     <div class="thumbnails-video">
-                        <img src="thumbnails/thumbnail-6.webp" >
+                        <img src="thumbnails/thumbnail-6.webp">
                     </div>
                     <div class="video-info-right">
-                        <p class="video-title-right">Try Not To Laugh Challenge #9</p>
-                        <p class="video-author-right">Markiplier</p>
-                        <p class="video-stats-right">19M views &#183 4 years ago</p>
+                        <p class="video-title-right">Anything You Can Fit In The Circle I&#39;ll Pay For</p>
+                        <p class="video-author-right">MrBeast</p>
+                        <p class="video-stats-right">141M views &#183 1 year ago</p>
                     </div>
                     <div class="icon-right">
                         <i class="fa-solid fa-ellipsis-vertical"></i>
                     </div>
                 </div>
+                <div class="row">
+                    <div class="thumbnails-video">
+                        <img src="thumbnails/thumbnail-1.webp">
+                    </div>
+                    <div class="video-info-right">
+                        <p class="video-title-right">Talking Tech and AI with Google CEO Sundar Pichai!</p>
+                        <p class="video-author-right">Marques Brownlee</p>
+                        <p class="video-stats-right">3.4M views  &#183; 6 months ago</p>
+                    </div>
+                    <div class="icon-right">
+                        <i class="fa-solid fa-ellipsis-vertical"></i>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="thumbnails-video">
+                        <img src="thumbnails/thumbnail-3.jpg">
+                    </div>
+                    <div class="video-info-right">
+                        <p class="video-title-right">HTML & CSS Full Course - Beginner to Pro</p>
+                        <p class="video-author-right">SuperSimpleDev</p>
+                        <p class="video-stats-right">3,6M views  &#183; 1 year ago</p>
+                    </div>
+                    <div class="icon-right">
+                        <i class="fa-solid fa-ellipsis-vertical"></i>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="thumbnails-video">
+                        <img src="thumbnails/thumbnail-4.webp">
+                    </div>
+                    <div class="video-info-right">
+                        <p class="video-title-right">The Simplest Math Problem No One Can Solve - Collatz...</p>
+                        <p class="video-author-right">Veritasium</p>
+                        <p class="video-stats-right">318M views &#183; 4 months ago</p>
+                    </div>
+                    <div class="icon-right">
+                        <i class="fa-solid fa-ellipsis-vertical"></i>
+                    </div>
+                </div>
+
+
+                <div class="row">
+                    <div class="thumbnails-video">
+                        <img src="thumbnails/thumbnail-5.webp">
+                    </div>
+                    <div class="video-info-right">
+                        <p class="video-title-right">Kadane's Algorithm to Maximum Sum Subarray Problem</p>
+                        <p class="video-author-right">CS Dojo</p>
+                        <p class="video-stats-right">519K views &#183; 5 years ago</p>
+                    </div>
+                    <div class="icon-right">
+                        <i class="fa-solid fa-ellipsis-vertical"></i>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="thumbnails-video">
+                        <img src="thumbnails/thumbnail-6.webp">
+                    </div>
+                    <div class="video-info-right">
+                        <p class="video-title-right">Anything You Can Fit In The Circle I&#39;ll Pay For</p>
+                        <p class="video-author-right">MrBeast</p>
+                        <p class="video-stats-right">141M views &#183 1 year ago</p>
+                    </div>
+                    <div class="icon-right">
+                        <i class="fa-solid fa-ellipsis-vertical"></i>
+                    </div>
+                </div>
+
 
 
             </div>
+
+        </section>
+    </main>
+
     
-            </section>
-      </main>
 </body>
+
 </html>
