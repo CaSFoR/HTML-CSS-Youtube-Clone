@@ -51,7 +51,6 @@
     right: 0;
     background-color: rgb(255, 255, 255);
     box-shadow: -20px 1px 4px rgba(255, 255, 255, 0.99);
-    z-index: 200;
 }
 .fa-angle-right{
     padding: 8px 12px;

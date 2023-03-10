@@ -20,7 +20,15 @@
 
 .sidebar-link:hover{
     background-color: rgb(235, 235, 235);
+    border-radius: 10px;
 }
+
+.sidebar-link:active{
+    background-color: rgb(230, 230, 230);
+    border-radius: 0px;
+
+}
+
 
 .sidebar-link img{
     height: 28px;
